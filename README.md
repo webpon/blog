@@ -2,6 +2,8 @@
 
 1. Linux
 2. 数据结构与算法
+   - 数据结构
+   - 算法
 3. 设计模式
 4. 正则表达式
 
@@ -51,6 +53,7 @@
 2. TT备考
 
    [线上地址](https://webpon-img.oss-cn-guangzhou.aliyuncs.com/ttBook.png)
+
    [仓库地址](https://github.com/webpon/TTBook)
 
 3. 圈子社交
