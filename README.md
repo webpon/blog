@@ -14,6 +14,8 @@
    - HTML
    - [CSS](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/CSS/CSS.md)
    - JavaScript
+     - 基础语法
+     - ES6+
    - TypeScript
 3. 基础框架
    - Vue2
