@@ -1,6 +1,6 @@
 # 软件开发基础
 
-1. Linux
+1. [Linux](https://github.com/webpon/blog/blob/master/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%9F%BA%E7%A1%80/Linux.md)
 2. 数据结构与算法
    - 数据结构
    - 算法
