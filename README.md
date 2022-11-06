@@ -3,6 +3,11 @@
 # 前端体系
 
 1. [浏览器原理](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8E%9F%E7%90%86.md)
+2. 前端基础
+   - HTML
+   - CSS
+   - JavaScript
+   - TypeScript
 
 # 后端体系
 
