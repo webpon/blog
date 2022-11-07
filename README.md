@@ -16,9 +16,9 @@
    - JavaScript
      - [基础语法](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/JavaScript/JavaScript.md)
      - [ES6+](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/JavaScript/ES6%2B.md)
-   - TypeScript
+   - [TypeScript](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/TypeScript.md)
 3. 基础框架
-   - Vue2
+   - [Vue2](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E5%9F%BA%E7%A1%80%E6%A1%86%E6%9E%B6/vue2.md)
    - Vue3
    - React
 4. 工具库
