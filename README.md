@@ -37,6 +37,36 @@
    4. 字体图标库
    5. 数据可视化
       - Echats
+5. 工程化体系
+   1. 构建工具
+      - Gulp
+      - Grunt
+      - npm script
+   2. 打包工具
+      - webpack
+      - Vite
+      - Rollup
+6. 前端优化
+7. CICD
+   1. GitLab CI
+   2. Jenkins
+8. 部署
+   1. Web服务器
+      - Nginx
+      - Apache
+   2. 容器
+      - Docker
+   3. 部署策略
+      - 全量发布
+      - 蓝绿发布
+      - 滚动发布
+      - 灰度发布
+   4. 内外穿透
+9. 监控告警
+10. 跨平台开发
+11. 微前端
+12. 前端求职
+13. 前端趋势
 
 # 后端体系
 
