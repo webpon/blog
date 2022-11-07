@@ -149,6 +149,10 @@
 
 9. [在react中使用vite的一些配置，包含less全局变量、proxy、别名等常见配置方式](https://blog.csdn.net/yun_master/article/details/120050054?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-120050054-blog-122637228.pc_relevant_recovery_v2&spm=1001.2101.3001.4242.1&utm_relevant_index=3)
 
+### 11月
+
+1. [解决github速度慢的问题](https://www.zhihu.com/question/27159393/answer/141047266)
+
 # 视野拓展
 
 ## 博客
