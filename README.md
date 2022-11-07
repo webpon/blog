@@ -65,8 +65,21 @@
 9. 监控告警
 10. 跨平台开发
 11. 微前端
+    1. qiankun
+    2. single-spa
 12. 前端求职
+    1. [内推](https://www.nowcoder.com/discuss/referral/all/index)
+    2. 简历
+       1. [超级简历](https://www.wondercv.com/)
+    3. 八股文
+       1. [牛客前端工程师面试宝典](https://www.nowcoder.com/tutorial/96/f5212664ab664984882b00635066ded2)
+       2. [面试题](http://39.103.233.82/web/front-end/front-end-interview/)
+       3. [前端知识](http://www.h-camel.com/history.html)
+    4. 笔试题
+    5. 面经
+       1. [牛客网前端面经汇总](https://www.nowcoder.com/experience/644)
 13. 前端趋势
+    1. WebComponents
 
 # 后端体系
 
