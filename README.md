@@ -85,8 +85,8 @@
     2. 简历
        1. [超级简历](https://www.wondercv.com/)
     3. 八股文
-       1. [牛客前端工程师面试宝典](https://www.nowcoder.com/tutorial/96/f5212664ab664984882b00635066ded2)
-       2. [面试题](http://39.103.233.82/web/front-end/front-end-interview/)
+       1. [面试题](http://39.103.233.82/web/front-end/front-end-interview/)
+       2. [牛客前端工程师面试宝典](https://www.nowcoder.com/tutorial/96/f5212664ab664984882b00635066ded2)
        3. [前端知识](http://www.h-camel.com/history.html)
     4. 笔试题
     5. 面经
