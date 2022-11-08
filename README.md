@@ -162,6 +162,9 @@
 
 1. [解决github速度慢的问题](https://www.zhihu.com/question/27159393/answer/141047266)
 2. [preload、prefetch、preconnect 和 dns-prefetch 知多少](https://juejin.cn/post/6915204591730556935)
+3. HTTPS的加密原理
+   - [彻底搞懂HTTPS的加密原理](https://zhuanlan.zhihu.com/p/43789231)
+   - [https的数字签名流程](https://blog.csdn.net/youshenshiwoye/article/details/109272330)
 
 # 视野拓展
 
