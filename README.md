@@ -126,7 +126,7 @@
 
    [线上地址](http://gitopenchina.gitee.io/simple-navigation/)
 
-# 每月记录
+# 每月好文阅读
 
 ## 2022
 
