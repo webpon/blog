@@ -178,7 +178,7 @@ https://releases.ubuntu.com/20.04/ubuntu-20.04.4-desktop-amd64.iso.torrent?_ga=2
 
     即可自动执行。（如下图）
 
-   ![img](https:////upload-images.jianshu.io/upload_images/7253992-aafb65345a261eb8.png?imageMogr2/auto-orient/strip|imageView2/2/w/378/format/webp)
+   ![image-20221108185644400](https://webpon-img.oss-cn-guangzhou.aliyuncs.com/imgimage-20221108185644400.png)
 
    命令输出情况
 
