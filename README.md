@@ -68,8 +68,13 @@
        - IOS开发
     2. 混合App
     3. Native App
+       - Flutter
+       - ReactNative
     4. 桌面应用
+       - Electron
     5. 小程序
+       - uniapp
+       - Taro
 11. 微前端
     1. qiankun
     2. single-spa
