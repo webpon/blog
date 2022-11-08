@@ -32,6 +32,7 @@
       - Axios
       - Moment.js
       - [fs-extra](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7%E5%BA%93/fs-extra.md)
+      - [mockm](https://hongqiye.com/doc/mockm/)
    2. 组件
    3. 动画库
    4. 字体图标库
