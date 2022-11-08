@@ -165,6 +165,9 @@
 3. HTTPS的加密原理
    - [彻底搞懂HTTPS的加密原理](https://zhuanlan.zhihu.com/p/43789231)
    - [https的数字签名流程](https://blog.csdn.net/youshenshiwoye/article/details/109272330)
+4. Http2的多路复用
+   - [Http2中的多路复用](https://blog.csdn.net/qq_29918313/article/details/118325824)
+   - [浅析HTTP/2的多路复用](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/JavaScript/ES6%2B.md)
 
 # 视野拓展
 
