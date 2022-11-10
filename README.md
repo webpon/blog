@@ -29,7 +29,7 @@
       - [serve](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7%E5%BA%93/serve.md)
       - ejs
       - Lodash
-      - Axios
+      - [Axios](https://www.axios-http.cn/docs/intro)
       - Moment.js
       - [fs-extra](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7%E5%BA%93/fs-extra.md)
       - [mockm](https://hongqiye.com/doc/mockm/)
@@ -169,6 +169,8 @@
 4. Http2的多路复用
    - [Http2中的多路复用](https://blog.csdn.net/qq_29918313/article/details/118325824)
    - [浅析HTTP/2的多路复用](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/JavaScript/ES6%2B.md)
+5. [不要再傻傻分不清 hash、 chunkhash 和 contenthash 啦](https://blog.csdn.net/bingbing1128/article/details/125239510?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-125239510-blog-126705621.pc_relevant_3mothn_strategy_and_data_recovery&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-125239510-blog-126705621.pc_relevant_3mothn_strategy_and_data_recovery&utm_relevant_index=2)
+6. [登陆验证实践——Token & Refresh Token](https://juejin.cn/post/6844904180470022151)
 
 # 视野拓展
 
