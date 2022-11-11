@@ -94,6 +94,12 @@
        1. [牛客网前端面经汇总](https://www.nowcoder.com/experience/644)
 13. 前端趋势
     1. WebComponents
+14. 前端工具
+    1. [httpbin](http://httpbin.org/)
+    2. [easyMock](https://mock.mengxuegu.com/)
+    3. [正则工具](https://regex101.com/)
+    4. [vscode代码片段生成](https://snippet-generator.app/)
+
 
 # 后端体系
 
