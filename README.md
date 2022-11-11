@@ -126,6 +126,12 @@
 4. 简约导航
 
    [线上地址](http://gitopenchina.gitee.io/simple-navigation/)
+   
+5. easynodejs(轮子)
+
+   [npm地址](https://www.npmjs.com/package/easynodejs)
+
+   [仓库地址](https://github.com/webpon/easynodejs)
 
 # 每月好文阅读
 
