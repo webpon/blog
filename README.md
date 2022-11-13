@@ -190,6 +190,7 @@
    1. [vue2.x VS vue3.x的自定义指令实现简单的v-model指令](https://juejin.cn/post/6983497502079057934)
    2. [从0开始了解16个Vue指令到手动封装自定义指令](https://juejin.cn/post/7049233225708732429#heading-24)
 
+10. [Vue3全局变量的定义和使用](https://blog.csdn.net/qq_32805013/article/details/123371061)
 
 # 视野拓展
 
