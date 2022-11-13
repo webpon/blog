@@ -16,6 +16,7 @@
    - [CSS](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/CSS/CSS.md)
    - JavaScript
      - [基础语法](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/JavaScript/JavaScript.md)
+     - [ES6 入门教程](https://es6.ruanyifeng.com/)
      - [ES6+](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/JavaScript/ES6%2B.md)
    - [TypeScript](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/TypeScript.md)
 3. 基础框架
@@ -183,6 +184,8 @@
    - [浅析HTTP/2的多路复用](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/JavaScript/ES6%2B.md)
 5. [不要再傻傻分不清 hash、 chunkhash 和 contenthash 啦](https://blog.csdn.net/bingbing1128/article/details/125239510?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-125239510-blog-126705621.pc_relevant_3mothn_strategy_and_data_recovery&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-125239510-blog-126705621.pc_relevant_3mothn_strategy_and_data_recovery&utm_relevant_index=2)
 6. [登陆验证实践——Token & Refresh Token](https://juejin.cn/post/6844904180470022151)
+7. [终于彻底搞懂 Watch、WatchEffect 了，原来功能如此强大！](https://juejin.cn/post/7134832274364694536)
+6. [Vue3.2 setup语法糖、Composition API、状态库Pinia归纳总结](https://juejin.cn/post/7006108454028836895)
 
 # 视野拓展
 
