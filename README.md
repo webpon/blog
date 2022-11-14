@@ -189,9 +189,9 @@
 9. 自定义指令
    1. [vue2.x VS vue3.x的自定义指令实现简单的v-model指令](https://juejin.cn/post/6983497502079057934)
    2. [从0开始了解16个Vue指令到手动封装自定义指令](https://juejin.cn/post/7049233225708732429#heading-24)
-
 10. [Vue3全局变量的定义和使用](https://blog.csdn.net/qq_32805013/article/details/123371061)
-11. [vue自定义全局弹窗组件](https://blog.csdn.net/qq_42613224/article/details/111612220?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-2-111612220-null-null.pc_agg_new_rank&utm_term=vue%E5%85%A8%E5%B1%80%E5%AE%9A%E4%B9%89%E5%BC%B9%E7%AA%97&spm=1000.2123.3001.4430)
+11. [vue2自定义全局弹窗组件](https://blog.csdn.net/qq_42613224/article/details/111612220?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-2-111612220-null-null.pc_agg_new_rank&utm_term=vue%E5%85%A8%E5%B1%80%E5%AE%9A%E4%B9%89%E5%BC%B9%E7%AA%97&spm=1000.2123.3001.4430)
+11. [文字转语音：语音合成(Speech Synthesis)](https://juejin.cn/post/6844904181619228679)
 
 # 视野拓展
 
