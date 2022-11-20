@@ -94,7 +94,8 @@
     5. 面经
        1. [牛客网前端面经汇总](https://www.nowcoder.com/experience/644)
 13. 手写核心原理系列
-    1. Vuex核心原理实现
+    1. [Vuex核心原理实现](https://github.com/webpon/blog/tree/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E6%89%8B%E5%86%99%E7%B3%BB%E5%88%97/%E6%89%8B%E5%86%99Vuex/my_vuex)
+    2. Vue-router核心原理实现
 
 14. 前端趋势
     1. WebComponents
