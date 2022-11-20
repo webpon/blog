@@ -1,9 +1,9 @@
 ## 一、核心原理
 
 1. Vuex本质是一个响应式对象
-2. 可以简单来说是一个对象，唯一的疑问点在于组件中使用vuex中的对象为何修改后也能响应式更新
-3. 其实很简单，我们可以通过[Vue.observable( object )](https://v2.cn.vuejs.org/v2/api/#Vue-observable)这个api来定义vuex的state对象就可以啦，该api具体用法请访问vue官网
-4. 当然我们也可以利用new Vue(), 把state传进去，例如new Vue(data: options.data),
+2. 可以简单来说是一个对象，**唯一的疑问点在于组件中使用vuex中的对象为何修改后也能响应式更新**
+3. 其实很简单，我们可以通过[**Vue.observable( object )**](https://v2.cn.vuejs.org/v2/api/#Vue-observable)这个api来定义vuex的state对象就可以啦，该api具体用法请访问vue官网
+4. 当然我们也可以利用**new Vue()**, 把state传进去，例如new Vue(data: options.data),
 5. 利用vue.use和install、mixins将store这个实例挂载到所有的组件上，注意是同一个store实例。
 
 ## 二、代码实现
