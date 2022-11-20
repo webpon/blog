@@ -93,9 +93,12 @@
     4. 笔试题
     5. 面经
        1. [牛客网前端面经汇总](https://www.nowcoder.com/experience/644)
-13. 前端趋势
+13. 手写核心原理系列
+    1. Vuex核心原理实现
+
+14. 前端趋势
     1. WebComponents
-14. 前端工具
+15. 前端工具
     1. [httpbin](http://httpbin.org/)
     2. [easyMock](https://mock.mengxuegu.com/)
     3. [正则工具](https://regex101.com/)
