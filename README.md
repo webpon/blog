@@ -102,7 +102,7 @@
     4. [Vue-router核心原理实现](https://github.com/webpon/Handwriting/tree/main/%E6%89%8B%E5%86%99Vue-router/my_vue-router)
     5. [Promise核心原理实现](https://github.com/webpon/Handwriting/tree/main/%E6%89%8B%E5%86%99Promise)
     6. async await核心原理实现
-    7. [更多手写原理](https://juejin.cn/post/6977621088154943495)
+    7. [更多手写原理](https://juejin.cn/post/6946136940164939813)
 
 14. 前端趋势
     1. WebComponents
