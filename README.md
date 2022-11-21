@@ -86,8 +86,10 @@
     2. 简历
        1. [超级简历](https://www.wondercv.com/)
        2. [简历tips](https://www.yuque.com/woniuppp/zhixing/nwwog8)
+       2. 简历模板
     3. 八股文
        1. [面试题](http://39.103.233.82/web/front-end/front-end-interview/)
+       1. [前端面试题汇总](https://www.yuque.com/cuggz/interview)
        2. [牛客前端工程师面试宝典](https://www.nowcoder.com/tutorial/96/f5212664ab664984882b00635066ded2)
        3. [前端知识](http://www.h-camel.com/history.html)
     4. 笔试题
@@ -100,7 +102,7 @@
     4. [Vue-router核心原理实现](https://github.com/webpon/Handwriting/tree/main/%E6%89%8B%E5%86%99Vue-router/my_vue-router)
     5. [Promise核心原理实现](https://github.com/webpon/Handwriting/tree/main/%E6%89%8B%E5%86%99Promise)
     6. async await核心原理实现
-    7. 
+    7. [更多手写原理](https://juejin.cn/post/6977621088154943495)
 
 14. 前端趋势
     1. WebComponents
