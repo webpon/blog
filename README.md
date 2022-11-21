@@ -94,8 +94,13 @@
     5. 面经
        1. [牛客网前端面经汇总](https://www.nowcoder.com/experience/644)
 13. 手写核心原理系列
-    1. [Vuex核心原理实现](https://github.com/webpon/Handwriting/tree/main/%E6%89%8B%E5%86%99Vuex/my_vuex)
-    2. [Vue-router核心原理实现](https://github.com/webpon/Handwriting/tree/main/%E6%89%8B%E5%86%99Vue-router/my_vue-router)
+    1. Webpack核心原理实现
+    2. Vue核心原理实现
+    3. [Vuex核心原理实现](https://github.com/webpon/Handwriting/tree/main/%E6%89%8B%E5%86%99Vuex/my_vuex)
+    4. [Vue-router核心原理实现](https://github.com/webpon/Handwriting/tree/main/%E6%89%8B%E5%86%99Vue-router/my_vue-router)
+    5. [Promise核心原理实现](https://github.com/webpon/Handwriting/tree/main/%E6%89%8B%E5%86%99Promise)
+    6. async await核心原理实现
+    7. 
 
 14. 前端趋势
     1. WebComponents

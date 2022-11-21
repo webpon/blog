@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<script src="Promise_04实现catch方法.js"></script>-->
+
+</head>
+<body>
+<script>
+    // let promise = new Promise((resolve,reject)=>{
+    //     resolve(1)
+    // })
+
+    // promise.then(
+    //     value=>{
+    //         return new Promise((resolve,reject)=>{
+    //             resolve(2)
+    //         })
+    //     },
+    //     reason=>{
+    //         console.log("onRejected:",reason);
+    //     }
+    // )
+
+    // new Promise((resolve,reject)=>{
+    //     reject(1)
+    // })
+    // .then(2)
+    //
+    // .then(res=>{
+    //     console.log(res);
+    // })
+    // // .then(res=>res,
+    // //     reason =>{
+    // //         console.log(reason);
+    // //     }
+    // // )
+    // .catch((reason)=>{
+    //     console.log(reason);
+    // })
+</script>
+<!--<script>-->
+    <!--// Promise.resolve(1)-->
+    <!--const p = Promise.resolve(new Promise()))-->
+    <!--console.log(p);-->
+    <!--// Promise.resolve(Promise.reject(1))-->
+
+    <!--p.then((resolve)=>{-->
+        <!--return new Promise((resolve => {resolve(2)})-->
+    <!--})-->
+<!--</script>-->
+<script>
+    var p1 = new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            console.log("M");
+            resolve(111)
+        },1000)
+    })
+    var p2 = new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            console.log("W");
+            resolve(22)
+        },800)
+    })
+    Promise.race([p1,p2,3]).then(res=>{
+        console.log(res);
+    })
+</script>
+</body>
+</html>
