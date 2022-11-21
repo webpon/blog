@@ -86,7 +86,7 @@
     2. 简历
        1. [超级简历](https://www.wondercv.com/)
        2. [简历tips](https://www.yuque.com/woniuppp/zhixing/nwwog8)
-       2. 简历模板
+       2. [简历模板](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BF.md)
     3. 八股文
        1. [面试题](http://39.103.233.82/web/front-end/front-end-interview/)
        1. [前端面试题汇总](https://www.yuque.com/cuggz/interview)
