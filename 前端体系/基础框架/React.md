@@ -753,7 +753,7 @@ render() {
 }
 ```
 
-同样， <input type="checkbox"> 和 <input type="radio"> 支持 defaultChecked ， <select>和 <textarea> 支持 defaultValue 。
+同样， `<input type="checkbox">` 和 `<input type="radio"`> 支持 defaultChecked ， `<select>`和 `<textarea>` 支持 defaultValue 。
 
 ##### 2、受控组件
 
