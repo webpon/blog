@@ -33,7 +33,7 @@
                 })
             }
         }
-        function reject(value) {
+        function reject(value) {   
             // 如果当前状态不是pending，则不执行
             if(self.status !== 'pending'){
                 return

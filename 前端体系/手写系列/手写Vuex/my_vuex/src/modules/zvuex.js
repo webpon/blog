@@ -9,7 +9,7 @@ class Store {
                 get: () => this._getters[key](options.state)
             })
         })
-        // 可以直接通过this.state获取定义的数组，比如this.state.count
+        // 可以通过new Vue定义响应式对象
         // this.state = new Vue({
         //     data: options.state,
         // })

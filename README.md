@@ -207,6 +207,9 @@
     1. [ts的.d.ts和declare究竟是干嘛用的](https://juejin.cn/post/7083869402001178655)
     2. [原来 TS 中 Declare 的作用是这样的！](https://www.51cto.com/article/710348.html)
 
+14. [如何设计更优雅的 React 组件?](https://mp.weixin.qq.com/s/C8Yj3cr_gqhwZqYs5iYL2w)
+15. [浅谈 Refs 转发、forwardRef](https://juejin.cn/post/7055870683465089060#heading-2)
+16. 
 
 # 视野拓展
 
