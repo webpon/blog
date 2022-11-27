@@ -102,7 +102,8 @@
     4. [Vue-router核心原理实现](https://github.com/webpon/Handwriting/tree/main/%E6%89%8B%E5%86%99Vue-router/my_vue-router)
     5. [Promise核心原理实现](https://github.com/webpon/Handwriting/tree/main/%E6%89%8B%E5%86%99Promise)
     6. async await核心原理实现
-    7. [更多手写原理](https://juejin.cn/post/6946136940164939813)
+    7. [虚拟列表实现原理](https://github.com/webpon/virtual-list)
+    8. [更多手写原理](https://juejin.cn/post/6946136940164939813)
 
 14. 前端趋势
     1. WebComponents
@@ -209,7 +210,8 @@
 
 14. [如何设计更优雅的 React 组件?](https://mp.weixin.qq.com/s/C8Yj3cr_gqhwZqYs5iYL2w)
 15. [浅谈 Refs 转发、forwardRef](https://juejin.cn/post/7055870683465089060#heading-2)
-16. 
+16. [「前端进阶」高性能渲染十万条数据(虚拟列表)](https://juejin.cn/post/6844903982742110216#heading-3)
+17. [ResizeObserver API](https://zhuanlan.zhihu.com/p/41418813/)
 
 # 视野拓展
 

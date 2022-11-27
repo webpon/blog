@@ -123,16 +123,16 @@
 
 react开发需要引入多个依赖文件：react.js、react-dom.js，分别又有开发版本和生产版本，create-react-app里已经帮我们把这些东西都安装好了。
 
-```js
+```jsx
 // 从 react 的包当中引入了 React。只要你要写 React.js 组件就必须引入React, 因为react里有一种语法叫JSX，稍后会讲到JSX，要写JSX，就必须引入React
 import React from 'react'
 // ReactDOM 可以帮助我们把 React 组件渲染到页面上去，没有其它的作用了。它是从 react-dom 中引入的，而不是从 react 引入。
 import ReactDOM from 'react-dom'
 // ReactDOM里有一个render方法，功能就是把组件渲染并且构造 DOM 树，然后插入到页面上某个特定的元素上
 ReactDOM.render(
-// 这里就比较奇怪了，它并不是一个字符串，看起来像是纯 HTML 代码写在 JavaScript 代码里面。语法错误吗？这并不是合法的 JavaScript 代码, “在 //JavaScript 写的标签的”语法叫 JSXJavaScript XML。
-<h1>欢迎进入React的世界</h1>,
-// 渲染到哪里
+    // 这里就比较奇怪了，它并不是一个字符串，看起来像是纯 HTML 代码写在 JavaScript 代码里面。语法错误吗？这并不是合法的 JavaScript 代码, “在 //JavaScript 写的标签的”语法叫 JSXJavaScript XML。
+    <h1>欢迎进入React的世界</h1>,
+    // 渲染到哪里
 	document.getElementById('root')
 )
 ```
@@ -381,27 +381,101 @@ onclick , React里的事件是驼峰 onClick ，**React的事件并不是原生�
 
 - 直接在组件内定义一个非箭头函数的方法，然后在constructor里bind(this)(推荐)
 
-**5.3、Even对象**
+**5.3、Event对象**
 
 和普通浏览器一样，事件handler会被自动传入一个 event 对象，这个对象和普通的浏览器 event 对象所包含的方法和属性都基本一致。不同的是 React中的 event 对象并不是浏览器提供的，而是它自己内部所构建的。它同样具有 event.stopPropagation 、 event.preventDefault 这种常用的方法
 
 ##### 6.Ref的应用
 
-**6.1给标签设置ref="username**
+###### 1.背景
 
- 通过这个获取this.refs.username , ref可以获取到应用的真实dom
+> vue和react都是数据驱动，为了提高性能在数据多次修改时，只有最后一次才会真的去修改
 
-**6.2** **给组件设置**ref="username"
+###### 2.场景
 
- 通过这个获取this.refs.username ,ref可以获取到组件对象
+> 需要抓取dom元素与第三方dom库集成，触发命令式动画，管理焦点，文本选择或媒体播放，图形可视化操作
 
-**6.3** **新的写法**
+###### 3.用法
 
+**createRef**
+
+> 组件每次渲染都会重新创建
+
+```javascript
+// 引入createRef
+import {createRef} from 'react';
+
+// 初始化
+const firstRef = createRef();
+
+// 使用
+<jsx ref={firstRef} />
+复制代码
 ```
-myRef = React.createRef()
-<div ref={this.myRef}>hello</div>
-访问this.myRef.current
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1befac3861a648e19af6082538bf9a76~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.image?)
+
+**useRef**
+
+> 组件每次渲染都指向同一个ref，useRef指向的是一个引用
+
+```javascript
+// 引入useRef
+import {useRef} from 'react';
+
+// 初始化
+const firstRef = useRef();
+
+// 使用
+<jsx ref={firstRef} />
+复制代码
 ```
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/de06f5c51cf242cd8719d8a149dbdaf2~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.image?)
+
+**callback**
+
+> 组件使用到的时候都会重新创建，直接指向dom
+
+```javascript
+// 初始化
+let firstRef = null;
+
+// 使用
+<jsx ref={ (el)=>{firstRef=el} } />
+复制代码
+```
+
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9a53edd498d9405b840ad2b16847d841~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.image?)
+
+**转发ref**
+
+> 父组件定一个ref套到子组件里的dom上，在父组件内对其进行操作
+
+```javascript
+// 父
+const r1 = useRef();
+<子 ref={r1} />
+
+// 子
+import {forwardRef} from 'react';
+const 子 = (props,ref)=>{
+return <div ref={ref}></div>
+}
+export default forwardRef(子);
+复制代码
+```
+
+###### 4.useRef作用
+
+> - useRef用于返回一个可变的ref对象。这个ref对象的current属性被初始化为useRef传入的参数initialValue
+> - useRef返回的ref对象在整个生命周期中保持不变。（意思是这个ref对象的地址一直不会变）
+> - ref对象变化不会触发视图更新。（但是当有state改变时，ref对象的变化也会显示在视图上）
+> - 获取的DOM实例将会储存在current属性。（current属性指向DOM实例）
+
+###### 注意
+
+> createRef和useRef都是执行绑定ref元素的引用，callback指向dom元素本身
 
 #### 五、组件的数据挂载方式
 
