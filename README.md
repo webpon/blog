@@ -142,11 +142,17 @@
 
    [仓库地址](https://github.com/webpon/SocialCircle)
 
-4. 简约导航
+3. web相机
+
+   [线上地址](https://gitopenchina.gitee.io/camera/)
+
+   [仓库地址](https://github.com/webpon/camera)
+
+5. 简约导航
 
    [线上地址](http://gitopenchina.gitee.io/simple-navigation/)
-   
-5. easynodejs(轮子)
+
+6. easynodejs(轮子)
 
    [npm地址](https://www.npmjs.com/package/easynodejs)
 
