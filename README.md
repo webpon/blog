@@ -37,8 +37,7 @@
 
    [仓库地址](https://github.com/webpon/SocialCircle)
 
-   更多...
-
+   [更多...](https://github.com/webpon/blog/blob/master/%E9%A1%B9%E7%9B%AE/Index.md)
 
 # 每月好文阅读
 
