@@ -33,3 +33,9 @@
    [npm地址](https://www.npmjs.com/package/easynodejs)
 
    [仓库地址](https://github.com/webpon/easynodejs)
+   
+7. htmlTo图片
+
+   [线上地址](https://gitopenchina.gitee.io/html2canvas-demo)
+
+   [仓库地址](https://github.com/webpon/html2canvasDemo)
