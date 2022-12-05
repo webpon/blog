@@ -43,6 +43,12 @@
 
 ## 2022
 
+### 12月
+
+1. [用 React 写函数组件，如何避免重复渲染？](https://www.zhihu.com/question/442368205/answer/2590697263)
+
+2. [前端下载文件的几种方式](https://blog.csdn.net/chilanzi/article/details/125089697)
+
 ### 11月
 
 1. [解决github速度慢的问题](https://www.zhihu.com/question/27159393/answer/141047266)
@@ -97,6 +103,7 @@
 ## 实用网站
 
 - [书栈网](https://www.bookstack.cn/)
+- [codesandbox](https://codesandbox.io/dashboard/recent)
 
 ## 交流社区
 
