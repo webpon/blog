@@ -73,7 +73,19 @@
 
    [更多...](https://github.com/webpon/blog/blob/master/article/2022/10%E6%9C%88.md)
 
+   # 书籍分享
    
+   | 前端                                                         | 后端                                                         | 其他                                                         |
+   | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+   | [阮一峰 JavaScript 教程](https://www.bookstack.cn/read/javascript-tutorial/README.md) | [Node.js技术栈](https://www.bookstack.cn/read/Nodejs-Roadmap/_coverpage.md) | [计算机底层的秘密](https://www.bookstack.cn/read/webxiaohua-gitbook/README.md) |
+   | [阮一峰 ES 6 标准入门教程 第三版](https://www.bookstack.cn/read/es6-3rd/sidebar.md) |                                                              | [《TCP/IP详解 卷1：协议》读书笔记](https://www.bookstack.cn/read/lutzchuck-tcpip-note/README.md) |
+   | [阮一峰 Web API 教程](https://www.bookstack.cn/read/webapi-tutorial/README.md) |                                                              |                                                              |
+   | [阮一峰 - Flex 布局教程](https://www.bookstack.cn/read/ruanyf-flex/0.md) |                                                              |                                                              |
+   | [阮一峰 Git 教程](https://www.bookstack.cn/read/git-tutorial/README.md) |                                                              |                                                              |
+   
+   [更多热门书籍-->](https://www.bookstack.cn/rank?tab=star)
+
+
 
 # 视野拓展
 
@@ -81,6 +93,10 @@
 
 - [阮一峰博客](https://www.ruanyifeng.com/)
 - [前端充电宝](https://www.yuque.com/cuggz)
+
+## 实用网站
+
+- [书栈网](https://www.bookstack.cn/)
 
 ## 交流社区
 
