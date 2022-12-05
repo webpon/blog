@@ -8,14 +8,35 @@
 4. [设计模式](https://github.com/webpon/blog/blob/master/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%9F%BA%E7%A1%80/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
 5. 正则表达式
 
-# [前端体系](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/Index.md)
+# 前端体系
 
+1. [浏览器原理](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8E%9F%E7%90%86.md)
 
+2. 前端基础
 
+   - HTML
+   - [CSS](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/CSS/CSS.md)
+   - JavaScript
+     - [基础语法](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/JavaScript/JavaScript.md)
+     - [ES6 入门教程](https://es6.ruanyifeng.com/)
+     - [ES6+](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/JavaScript/ES6%2B.md)
+   - [TypeScript](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/TypeScript.md)
 
-# [后端体系](https://github.com/webpon/blog/blob/master/%E5%90%8E%E7%AB%AF%E4%BD%93%E7%B3%BB/Index.md)
+3. 基础框架
 
+   - [Vue2](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E5%9F%BA%E7%A1%80%E6%A1%86%E6%9E%B6/vue2.md)
+   - [Vue3](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E5%9F%BA%E7%A1%80%E6%A1%86%E6%9E%B6/Vue3.md)
+   - [React](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E5%9F%BA%E7%A1%80%E6%A1%86%E6%9E%B6/React.md)
 
+   [更多...](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/Index.md)
+
+# 后端体系
+
+1. [Java基础](https://github.com/webpon/blog/blob/master/%E5%90%8E%E7%AB%AF%E4%BD%93%E7%B3%BB/Java/Java%E5%9F%BA%E7%A1%80.md)
+2. Nodejs
+   1. [基础语法](https://github.com/webpon/blog/blob/master/%E5%90%8E%E7%AB%AF%E4%BD%93%E7%B3%BB/Nodejs/Nodejs.md)
+   2. [Yarn](https://github.com/webpon/blog/blob/master/%E5%90%8E%E7%AB%AF%E4%BD%93%E7%B3%BB/Nodejs/yarn.md)
+3. 数据库
 
 # 我的项目
 
@@ -42,6 +63,12 @@
 # 每月好文阅读
 
 ## 2022
+
+### 12月
+
+1. [用 React 写函数组件，如何避免重复渲染？](https://www.zhihu.com/question/442368205/answer/2590697263)
+
+2. [前端下载文件的几种方式](https://blog.csdn.net/chilanzi/article/details/125089697)
 
 ### 11月
 
@@ -73,7 +100,19 @@
 
    [更多...](https://github.com/webpon/blog/blob/master/article/2022/10%E6%9C%88.md)
 
+   # 书籍分享
    
+   | 前端                                                         | 后端                                                         | 其他                                                         |
+   | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+   | [阮一峰 JavaScript 教程](https://www.bookstack.cn/read/javascript-tutorial/README.md) | [Node.js技术栈](https://www.bookstack.cn/read/Nodejs-Roadmap/_coverpage.md) | [计算机底层的秘密](https://www.bookstack.cn/read/webxiaohua-gitbook/README.md) |
+   | [阮一峰 ES 6 标准入门教程 第三版](https://www.bookstack.cn/read/es6-3rd/sidebar.md) |                                                              | [《TCP/IP详解 卷1：协议》读书笔记](https://www.bookstack.cn/read/lutzchuck-tcpip-note/README.md) |
+   | [阮一峰 Web API 教程](https://www.bookstack.cn/read/webapi-tutorial/README.md) |                                                              |                                                              |
+   | [阮一峰 - Flex 布局教程](https://www.bookstack.cn/read/ruanyf-flex/0.md) |                                                              |                                                              |
+   | [阮一峰 Git 教程](https://www.bookstack.cn/read/git-tutorial/README.md) |                                                              |                                                              |
+   
+   [更多热门书籍-->](https://www.bookstack.cn/rank?tab=star)
+
+
 
 # 视野拓展
 
@@ -81,6 +120,11 @@
 
 - [阮一峰博客](https://www.ruanyifeng.com/)
 - [前端充电宝](https://www.yuque.com/cuggz)
+
+## 实用网站
+
+- [书栈网](https://www.bookstack.cn/)
+- [codesandbox](https://codesandbox.io/dashboard/recent)
 
 ## 交流社区
 
