@@ -27,6 +27,12 @@
 5. 简约导航
 
    [线上地址](http://gitopenchina.gitee.io/simple-navigation/)
+   
+7. htmlTo图片
+
+   [线上地址](https://gitopenchina.gitee.io/html2canvas-demo)
+
+   [仓库地址](https://github.com/webpon/html2canvasDemo)
 
 6. easynodejs(轮子)
 
@@ -34,8 +40,8 @@
 
    [仓库地址](https://github.com/webpon/easynodejs)
    
-7. htmlTo图片
+8. wow-app-cli(轮子)
 
-   [线上地址](https://gitopenchina.gitee.io/html2canvas-demo)
+   [npm地址](https://www.npmjs.com/package/wow-app-cli)
 
-   [仓库地址](https://github.com/webpon/html2canvasDemo)
+   仓库地址(暂无)
