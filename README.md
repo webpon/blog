@@ -67,8 +67,12 @@
 ### 12月
 
 1. [用 React 写函数组件，如何避免重复渲染？](https://www.zhihu.com/question/442368205/answer/2590697263)
-
 2. [前端下载文件的几种方式](https://blog.csdn.net/chilanzi/article/details/125089697)
+3. Babel
+   1. [一文彻底读懂Babel](https://juejin.cn/post/6901649054225465352)
+   2. [Babel学习系列4-polyfill和runtime差别(必看)](https://zhuanlan.zhihu.com/p/58624930)
+4. [如何正确使用 useMemo 和 useCallback](https://juejin.cn/post/7122027852492439565)
+4. [计算机网络](http://x-code.fun/web/software-base/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/networks.html)
 
 ### 11月
 
