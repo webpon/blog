@@ -70,12 +70,13 @@
 2. [前端下载文件的几种方式](https://blog.csdn.net/chilanzi/article/details/125089697)
 3. Babel
    1. [一文彻底读懂Babel](https://juejin.cn/post/6901649054225465352)
-   2. [Babel学习系列4-polyfill和runtime差别(必看)](https://zhuanlan.zhihu.com/p/58624930)
+   2. [Babel学习系列4-polyfill和runtime差别(必看)](https://zhuanlan.zhihu.com/p/58624930)    
 4. [如何正确使用 useMemo 和 useCallback](https://juejin.cn/post/7122027852492439565)
 5. [计算机网络](http://x-code.fun/web/software-base/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/networks.html)
 6. [React全部api解读+基础实践大全](https://juejin.cn/post/6950063294270930980)
 7. [谈谈JS二进制：File、Blob、FileReader、ArrayBuffer、Base64](https://juejin.cn/post/7148254347401363463)
 8. [CSS 的空格处理(whitespace)](https://www.ruanyifeng.com/blog/2018/07/white-space.html)
+9. [JS实现复制截图，自动显示图片，并上传图片到后端](https://blog.csdn.net/github_35631540/article/details/111157198) 
 
 ### 11月
 
