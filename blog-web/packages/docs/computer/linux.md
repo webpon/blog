@@ -1603,7 +1603,7 @@ pm2 delete XXX
 `$ pm2 stop 0` 停止指定的进程
 `$ pm2 restart 0` 重启指定的进程
 `$ pm2 startup` 产生 init 脚本 保持进程活着
-`$ pm2 web` 运行健壮的 computer API endpoint ([http://localhost:9615](http://localhost:9615/))
+`$ pm2 web` 运行健壮的 computer API endpoint
 `$ pm2 delete 0` 杀死指定的进程
 `$ pm2 delete all` 杀死全部进程
 

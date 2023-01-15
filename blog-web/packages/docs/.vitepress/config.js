@@ -30,7 +30,6 @@ export const config = {
         socialLinks: [{ icon: 'github', link: 'https://github.com/webpon/wow-app-cli' }],
 
         sidebar: {
-
             '/': [
                 {
                     text: '软件开发基础',
@@ -92,129 +91,6 @@ export const config = {
                         {
                             text: '每月好文阅读',
                             link: '/learn-record/read'
-                        },
-                    ]
-                },
-                {
-                    text: '模板',
-                    items: [
-                        {
-                            text: '移动端',
-                            collapsible: true,
-                            collapsed: true,
-                            items: [
-                                {
-                                    text: 'vue2',
-
-                                    items: [
-                                        {
-                                            text: '1、vue2-base',
-                                            link: '/guide/components/mobile/vue2/vue2-base'
-                                        },
-                                        {
-                                            text: '2、vant-finance-mobile',
-                                            link: '/guide/components/mobile/vue2/vant-finance-mobile'
-                                        },
-                                    ]
-                                },
-                                {
-                                    text: 'vue3',
-                                    items: [
-                                        {
-                                            text: '1、vue3-base-js',
-                                            link: '/guide/components/mobile/vue3/vue3-base-js'
-                                        },
-                                        {
-                                            text: '2、vue3-base-ts',
-                                            link: '/guide/components/mobile/vue3/vue3-base-ts'
-                                        },
-                                        {
-                                            text: '3、vue3-vant4-mobile',
-                                            link: '/guide/components/mobile/vue3/vue3-vant4-mobile'
-                                        },
-                                        {
-                                            text: '4、vue-mobile-template',
-                                            link: '/guide/components/mobile/vue3/vue-mobile-template'
-                                        },
-                                    ]
-                                },
-                                {
-                                    text: 'react',
-                                    items: [
-                                        {
-                                            text: '1、vite-react-ts-antd',
-                                            link: '/guide/components/mobile/react/vite-react-ts-antd'
-                                        },
-                                    ]
-                                },
-                            ]
-                        },
-                    ]
-                },
-            ],
-            '/guide/': [
-                {
-                    text: '指引',
-                    items: [
-                        {
-                            text: '开始',
-                            link: '/guide/start'
-                        },
-                    ]
-                },
-                {
-                    text: '模板',
-                    items: [
-                        {
-                            text: '移动端',
-                            collapsible: true,
-                            collapsed: true,
-                            items: [
-                                {
-                                    text: 'vue2',
-
-                                    items: [
-                                        {
-                                            text: '1、vue2-base',
-                                            link: '/guide/components/mobile/vue2/vue2-base'
-                                        },
-                                        {
-                                            text: '2、vant-finance-mobile',
-                                            link: '/guide/components/mobile/vue2/vant-finance-mobile'
-                                        },
-                                    ]
-                                },
-                                {
-                                    text: 'vue3',
-                                    items: [
-                                        {
-                                            text: '1、vue3-base-js',
-                                            link: '/guide/components/mobile/vue3/vue3-base-js'
-                                        },
-                                        {
-                                            text: '2、vue3-base-ts',
-                                            link: '/guide/components/mobile/vue3/vue3-base-ts'
-                                        },
-                                        {
-                                            text: '3、vue3-vant4-mobile',
-                                            link: '/guide/components/mobile/vue3/vue3-vant4-mobile'
-                                        },
-                                        {
-                                            text: '4、vue-mobile-template',
-                                            link: '/guide/components/mobile/vue3/vue-mobile-template'
-                                        },
-                                    ]
-                                },
-                                {
-                                    text: 'react',
-                                    items: [
-                                        {
-                                            text: '1、vite-react-ts-antd',
-                                            link: '/guide/components/mobile/react/vite-react-ts-antd'
-                                        },
-                                    ]
-                                },
-                            ]
                         },
                     ]
                 },

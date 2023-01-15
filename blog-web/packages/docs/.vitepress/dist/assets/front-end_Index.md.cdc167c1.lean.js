@@ -1,0 +1,1 @@
+import{_ as l,c as e,o as r,a as i}from"./app.cf50a950.js";const f=JSON.parse('{"title":"前端体系","description":"","frontmatter":{},"headers":[],"relativePath":"front-end/Index.md"}'),t={name:"front-end/Index.md"},a=i("",2),o=[a];function n(E,p,b,B,h,s){return r(),e("div",null,o)}const m=l(t,[["render",n]]);export{f as __pageData,m as default};
