@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t,a as s}from"./app.14146473.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/components/pc/react/react-base.md"}'),c={name:"guide/components/pc/react/react-base.md"},r=s("",4),n=[r];function p(o,l,i,_,d,m){return t(),a("div",null,n)}const f=e(c,[["render",p]]);export{h as __pageData,f as default};
