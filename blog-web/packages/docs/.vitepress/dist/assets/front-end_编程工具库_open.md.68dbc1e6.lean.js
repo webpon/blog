@@ -1,1 +1,0 @@
-import{_ as s,c as a,o as n,a as e}from"./app.cf50a950.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"front-end/编程工具库/open.md"}'),p={name:"front-end/编程工具库/open.md"},o=e("",11),l=[o];function t(c,r,i,u,C,d){return n(),a("div",null,l)}const y=s(p,[["render",t]]);export{h as __pageData,y as default};

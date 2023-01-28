@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a as l}from"./app.3f566b2e.js";const F=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"front-end/工程化体系/Rollup.md"}'),p={name:"front-end/工程化体系/Rollup.md"},o=l("",56),e=[o];function t(c,r,y,D,i,C){return a(),n("div",null,e)}const d=s(p,[["render",t]]);export{F as __pageData,d as default};

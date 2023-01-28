@@ -1,11 +1,3 @@
-- [简单实用](#简单实用)
-- [使用配置文件](#使用配置文件)
-- [使用插件](#使用插件)
-- [Javascipt API](#javascipt-api)
-- [rollup.rollup](#rolluprollup)
-- [输入参数(inputOptions)](#输入参数inputoptions)
-- [输出参数(outputOptions)](#输出参数outputoptions)
-- [监听参数(watchOptions)](#监听参数watchoptions)
 ##### 简单实用
 
 > Rollup同样是一款ES Module打包器，从作用来看，Rollup与Webpack很相似，但Rollup更为小巧，仅仅是一款ESM打包器；比如Rollup中不不支持类似的HMR这种高级特性

@@ -1,28 +1,28 @@
 # 前端体系
 
-1. [浏览器原理](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8E%9F%E7%90%86.md)
+1. [浏览器原理](/front-end/browser)
 2. 前端基础
    - HTML
-   - [CSS](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/CSS/CSS.md)
+   - [CSS](/front-end/CSS/CSS)
    - JavaScript
-     - [基础语法](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/JavaScript/JavaScript.md)
+     - [基础语法](/front-end/JavaScript/JavaScript)
      - [ES6 入门教程](https://es6.ruanyifeng.com/)
-     - [ES6+](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/JavaScript/ES6%2B.md)
-   - [TypeScript](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/TypeScript.md)
+     - [ES6+](/front-end/JavaScript/ES6+)
+   - [TypeScript](/front-end/TypeScript)
 3. 基础框架
-   - [Vue2](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E5%9F%BA%E7%A1%80%E6%A1%86%E6%9E%B6/vue2.md)
-   - [Vue3](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E5%9F%BA%E7%A1%80%E6%A1%86%E6%9E%B6/Vue3.md)
-   - [React](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E5%9F%BA%E7%A1%80%E6%A1%86%E6%9E%B6/React.md)
+   - [Vue2](/front-end/framework/vue2)
+   - [Vue3](/front-end/framework/Vue3)
+   - [React](/front-end/framework/React)
 4. 工具库
    1. 编码工具库
-      - [download-git-repo](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7%E5%BA%93/download-git-repo.md)
-      - [open](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7%E5%BA%93/open.md)
-      - [serve](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7%E5%BA%93/serve.md)
+      - [download-git-repo](/front-end/编程工具库/download-git-repo)
+      - [open](/front-end/编程工具库/open)
+      - [serve](/front-end/编程工具库/serve)
       - ejs
       - Lodash
       - [Axios](https://www.axios-http.cn/docs/intro)
       - Moment.js
-      - [fs-extra](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7%E5%BA%93/fs-extra.md)
+      - [fs-extra](/front-end/编程工具库/fs-extra)
       - [mockm](https://hongqiye.com/doc/mockm/)
    2. 组件
    3. 动画库
@@ -35,9 +35,9 @@
       - Grunt
       - npm script
    2. 打包工具
-      - [webpack](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E5%B7%A5%E7%A8%8B%E5%8C%96%E4%BD%93%E7%B3%BB/webpack.md)
-      - Vite
-      - [Rollup](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E5%B7%A5%E7%A8%8B%E5%8C%96%E4%BD%93%E7%B3%BB/Rollup.md)
+      - [webpack](/front-end/工程化体系/webpack)
+      - [Vite](https://cn.vitejs.dev/)
+      - [Rollup](/front-end/工程化体系/Rollup)
 6. 前端优化
 7. CICD
    1. GitLab CI
@@ -57,7 +57,7 @@
 9. 监控告警
 10. 跨平台开发
     1. 原生开发
-       - [安卓开发](https://github.com/webpon/blog/blob/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/%E8%B7%A8%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91/%E5%AE%89%E5%8D%93%E5%BC%80%E5%8F%91.md)
+       - [安卓开发](/front-end/跨平台开发/安卓开发)
        - IOS开发
     2. 混合App
     3. Native App

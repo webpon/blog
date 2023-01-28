@@ -12,7 +12,10 @@
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
-		"vitepress": "^1.0.0-alpha.36",
+		"flexsearch": "^0.7.31",
+		"markdown-it": "^13.0.1",
+		"vitepress": "^1.0.0-alpha.40",
+		"vitepress-plugin-search": "^1.0.4-alpha.18",
 		"vue": "^3.2.45"
 	}
 }

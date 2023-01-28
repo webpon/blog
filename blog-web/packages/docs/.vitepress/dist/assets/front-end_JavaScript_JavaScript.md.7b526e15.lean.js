@@ -1,1 +1,0 @@
-import{_ as t,c as a,o as e}from"./app.cf50a950.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"front-end/JavaScript/JavaScript.md"}'),r={name:"front-end/JavaScript/JavaScript.md"};function c(n,o,p,s,i,d){return e(),a("div")}const m=t(r,[["render",c]]);export{f as __pageData,m as default};

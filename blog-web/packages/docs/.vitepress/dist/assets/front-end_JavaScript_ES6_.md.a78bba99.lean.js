@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as l}from"./app.3f566b2e.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"front-end/JavaScript/ES6+.md"}'),e={name:"front-end/JavaScript/ES6+.md"},o=l("",967),p=[o];function t(c,r,i,y,C,A){return n(),a("div",null,p)}const F=s(e,[["render",t]]);export{d as __pageData,F as default};
