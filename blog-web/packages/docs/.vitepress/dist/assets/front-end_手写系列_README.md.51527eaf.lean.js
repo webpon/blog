@@ -1,0 +1,1 @@
+import{_ as e,c as t,o,d as n}from"./app.e2a6dfd5.js";const E=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"front-end/手写系列/README.md"}'),a={name:"front-end/手写系列/README.md"},s=n("p",null,"1111",-1),r=[s];function c(d,_,p,i,l,f){return o(),t("div",null,r)}const u=e(a,[["render",c]]);export{E as __pageData,u as default};
