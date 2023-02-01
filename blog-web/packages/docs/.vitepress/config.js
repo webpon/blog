@@ -19,6 +19,10 @@ export const config = {
     outline: 'deep',
     nav: [
       {
+        text: '学习记录',
+        link: 'learn-record/read'
+      },
+      {
         text: '编程工具',
         items: [
           { text: 'httpbin', link: 'http://httpbin.org/' },
