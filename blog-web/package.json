@@ -1,19 +1,21 @@
 {
-	"name": "blog-web",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"dev": "vitepress dev packages/docs",
-		"build": "vitepress build packages/docs",
-		"serve": "vitepress serve packages/docs"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"devDependencies": {
-		"vitepress": "^1.0.0-alpha.45",
-		"vitepress-plugin-search": "^1.0.4-alpha.18",
-		"vue": "^3.2.45"
-	}
+  "name": "blog-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev packages/docs",
+    "build": "vitepress build packages/docs",
+    "serve": "vitepress serve packages/docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "element-plus": "^2.2.28",
+    "shiki": "^0.11.1",
+    "vitepress": "^1.0.0-alpha.45",
+    "vitepress-plugin-search": "^1.0.4-alpha.18",
+    "vue": "^3.2.45"
+  }
 }

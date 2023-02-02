@@ -964,9 +964,9 @@ Last-Modified 表示本地文件最后修改日期，浏览器会在请求头带
 最佳优化策略：因为协商缓存本身也有http请求的损耗，所以最佳优化策略是要尽可能的将静态文件存储为较长的时间，多利用强缓存而不是协商缓存，即消灭304。
  但是给文件设置一个很长的`Cacha-Control`也会带来其他的问题，最主要的问题是静态内容更新时，用户不能及时获得更新的内容。这时候就要使用`hash`的方法对文件进行命名，通过每次更新不同的静态文件名来消除强缓存的影响。
 
-#### [node](https://so.csdn.net/so/search?q=node&spm=1001.2101.3001.7020)实践
+#### node实践
 
-#### 强缓存
+##### 强缓存
 
 - 强缓存设置靠请求头的Cache-Control或者Expires，听说有兼容性问题，老的是Expires，现在越来越多浏览器支持Cache-Control了，建议全都设上。
 
@@ -981,7 +981,7 @@ Last-Modified 表示本地文件最后修改日期，浏览器会在请求头带
 
   ![image.png](https://webpon-img.oss-cn-guangzhou.aliyuncs.com/img94191b370ed02f771ede067651852654.png)
 
-#### 协商缓存
+##### 协商缓存
 
 **Last-Modified，If-Modified-Since**
 

@@ -1,3 +1,4 @@
+import demoblock from './demoblock';
 
 export const config = {
   base: '/',
@@ -7,7 +8,10 @@ export const config = {
   ],
   // description: 'a Vue 3 based component library for designers and developers',
   markdown: {
-    attrs: { disable: true } 
+    attrs: { disable: true },
+    config: (md) => {
+      md.use(demoblock)
+    } 
   },
   themeConfig: {
     logo: 'https://wow-editor.oss-cn-hangzhou.aliyuncs.com/static/favicon.ico',

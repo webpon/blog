@@ -812,6 +812,8 @@ var vm= new Vue({
 
 <img src="https://webpon-img.oss-cn-guangzhou.aliyuncs.com/imgwKioL1gLE7jBVrvSAACSP3ftTFM106.png" alt="技术分享" style="zoom:67%;" />
 
+<demo src="../demo/v-bing_class.vue" desc="例子"></demo>
+
 **二、数组语法**
 
 我们可以把一个数组传给v-bind:class，以应用一个class列表
