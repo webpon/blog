@@ -788,7 +788,7 @@ var vm= new Vue({
 
 HTML代码：
 
-```
+``` html
 <ul class="box" :class="classObject">
     <li>学习Vue</li>
     <li>学习Node</li>
@@ -798,7 +798,7 @@ HTML代码：
 
 JS代码：
 
-```
+``` js
 var vm= new Vue({
     el:‘.box‘,
     data:{
@@ -812,7 +812,10 @@ var vm= new Vue({
 
 <img src="https://webpon-img.oss-cn-guangzhou.aliyuncs.com/imgwKioL1gLE7jBVrvSAACSP3ftTFM106.png" alt="技术分享" style="zoom:67%;" />
 
-<demo src="../demo/v-bing_class.vue" desc="例子"></demo>
+**例子**
+<div>
+  <demo src="../demo/v-bing_class.vue" desc="例子"></demo>
+</div>
 
 **二、数组语法**
 

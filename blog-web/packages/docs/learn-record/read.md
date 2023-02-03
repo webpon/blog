@@ -9,6 +9,7 @@
 3. [Proxy代理对象](https://juejin.cn/post/7060864025373966343)
 4. [Reflect映射对象](https://juejin.cn/post/7080916820353351688)
 5. [为什么Proxy一定要配合Reflect使用？](https://juejin.cn/post/7080916820353351688)
+6. [从多线程到Event Loop全面梳理](https://juejin.cn/post/6844903919789801486)
 
 ## 2022
 

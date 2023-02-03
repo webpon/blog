@@ -1,1 +1,0 @@
-import{_ as s,c as a,o as n,a as e}from"./app.f55da193.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"front-end/编程工具库/serve.md"}'),p={name:"front-end/编程工具库/serve.md"},l=e("",6),t=[l];function o(c,i,r,C,d,_){return n(),a("div",null,t)}const g=s(p,[["render",o]]);export{m as __pageData,g as default};
