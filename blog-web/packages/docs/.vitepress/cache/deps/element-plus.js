@@ -87,7 +87,7 @@ import {
   withDirectives,
   withKeys,
   withModifiers
-} from "./chunk-Y2CI2OEF.js";
+} from "./chunk-CDPWPH25.js";
 
 // node_modules/dayjs/dayjs.min.js
 var require_dayjs_min = __commonJS({
@@ -17665,7 +17665,7 @@ var useZIndex = () => {
   };
 };
 
-// node_modules/@floating-ui/core/dist/floating-ui.core.esm.js
+// node_modules/@floating-ui/core/dist/floating-ui.core.browser.mjs
 function getAlignment(placement) {
   return placement.split("-")[1];
 }
@@ -17741,7 +17741,7 @@ var computePosition = async (reference, floating, config) => {
   } = config;
   const validMiddleware = middleware.filter(Boolean);
   const rtl = await (platform2.isRTL == null ? void 0 : platform2.isRTL(floating));
-  if (true) {
+  {
     if (platform2 == null) {
       console.error(["Floating UI: `platform` property was not passed to config. If you", "want to use Floating UI on the web, install @floating-ui/dom", "instead of the /core package. Otherwise, you can create your own", "`platform`: https://floating-ui.com/docs/platform"].join(" "));
     }
@@ -17802,7 +17802,7 @@ var computePosition = async (reference, floating, config) => {
         ...data
       }
     };
-    if (true) {
+    {
       if (resetCount > 50) {
         console.warn(["Floating UI: The middleware lifecycle appears to be running in an", "infinite loop. This is usually caused by a `reset` continually", "being returned without a break condition."].join(" "));
       }
@@ -17884,7 +17884,7 @@ var arrow = (options) => ({
       platform: platform2
     } = middlewareArguments;
     if (element == null) {
-      if (true) {
+      {
         console.warn("Floating UI: No `element` was passed to the `arrow` middleware.");
       }
       return {};
@@ -17984,7 +17984,7 @@ var offset = function(value) {
   };
 };
 
-// node_modules/@floating-ui/dom/dist/floating-ui.dom.esm.js
+// node_modules/@floating-ui/dom/dist/floating-ui.dom.browser.mjs
 function getWindow(node) {
   var _node$ownerDocument;
   return ((_node$ownerDocument = node.ownerDocument) == null ? void 0 : _node$ownerDocument.defaultView) || window;

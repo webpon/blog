@@ -277,7 +277,7 @@ JavaScript的加载、解析与执行会阻塞DOM的构建，也就是说，在�
 
 由于JavaScript有可能操作DOM和CSSOM，所以这时候DOM和CSSOM不会解析和合并
 
-```
+``` html
 <!DOCTYPE html>
 <html lang="en">
 <head>

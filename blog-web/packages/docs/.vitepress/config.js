@@ -4,7 +4,8 @@ export const config = {
   base: '/',
   title: 'webpon-blog',
   head: [
-    ['link', { rel: 'icon', href: 'https://wow-editor.oss-cn-hangzhou.aliyuncs.com/static/favicon.ico' }]
+    // ['link', { rel: 'icon', href: 'https://wow-editor.oss-cn-hangzhou.aliyuncs.com/static/favicon.ico' }]
+    ['link', { rel: 'icon', href: 'https://avatars.githubusercontent.com/u/50807258?s=400&u=c33267d837d5860768a166e35e419e2b5e6769f7&v=4' }]
   ],
   // description: 'a Vue 3 based component library for designers and developers',
   markdown: {
@@ -14,7 +15,7 @@ export const config = {
     } 
   },
   themeConfig: {
-    logo: 'https://wow-editor.oss-cn-hangzhou.aliyuncs.com/static/favicon.ico',
+    logo: 'https://avatars.githubusercontent.com/u/50807258?s=400&u=c33267d837d5860768a166e35e419e2b5e6769f7&v=4',
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2021-PRESENT webpon contributors'
@@ -22,6 +23,10 @@ export const config = {
     outlineTitle: '-页面大纲-',
     outline: 'deep',
     nav: [
+      {
+        text: '我的项目',
+        link: 'project/'
+      },
       {
         text: '学习记录',
         link: 'learn-record/read'

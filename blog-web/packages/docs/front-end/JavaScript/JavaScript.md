@@ -2660,10 +2660,6 @@ curryingAdd(1)(2)   // 3
 
 **构造函数和普通函数的区别就是调用方式的不同**
 
-```
-
-```
-
 **普通函数是直接调用，而构造函数需要使用new关键字来调用**(`当然构造函数和普通函数均能直接调用和使用new 关键字来调用`)
 
 ```
@@ -2710,22 +2706,45 @@ function Test(name) {
 ```
 
 ```
-2、将新建的对象设置为函数中的this
+2、把新对象的原型指针指向构造函数的原型属性
 ```
 
 ```
-3、逐行执行函数中的代码
+3、改变this指向，并且执行构造函数内部的代码（传参）
 ```
 
 ```
-4、将新建的对象作为返回值返回
+4、判断函数执行结果的类型
+```
+手写new代码：
+``` js
+//Fun为构造函数, args表示传参
+function myNew(Fun, ...args) {
+    // 1.在内存中创建一个新对象
+    let obj = {};
+
+    // 2.把新对象的原型指针指向构造函数的原型属性
+    obj.__proto__ = Fun.prototype;
+    
+    // 3.改变this指向，并且执行构造函数内部的代码（传参）
+    let res = Fun.apply(obj, args);
+    
+    // 4.判断函数执行结果的类型
+    if (res instanceof Object) {
+        return res;
+    } else {
+        return obj;
+    }
+}
+let obj = myNew(One, "XiaoMing", "18");
+console.log("newObj:", obj);
 ```
 
 使用同一个构造函数创建的对象，我们称为一类对象，也将一个构造函数称为一个类
 
 1、使用构造函数
 
-```
+``` js
 <script>
          function Phone(brand,price) {
            this.brand=brand;
@@ -2751,29 +2770,29 @@ function Test(name) {
 
 如果返回值为基本数据类型（string，number，boolean，undefined，null），那么返回值为新建对象实例，即this。
 
-```
+``` js
 var a = function S(){
 　　this.x=3;
 　　return 1;
 }
 var b = new a();
-console.log(a); //{x:3}
+console.log(b); ////S(){x:3}
 ```
 
-如果返回值为一个非基本数据类型的对象，函数的返回值为指定的对象，this值所引用的对象被丢弃。
+如果返回值为一个非基本数据类型的对象，那么函数的返回值为构造函数返回的对象。
 
-```
+``` js
 var a = function S(){
 　　this.x=3;
-　　return a;
+　　return {};
 }
 var b = new a();
-console.log(b); //S(){this.x=3;return a }
+console.log(b); //{}
 ```
 
 直观的例子：
 
-```
+``` js
 var a = function User( name, age){
 　　this.name = name;
 　　this.age = age;
@@ -2799,7 +2818,7 @@ console.log(b);
 
 使用ES6中提供的class完成上面的功能
 
-```
+``` js
 class Phone {
       //构造方法，名字不能修改
       constructor(brand, price) {
@@ -2835,7 +2854,7 @@ console.log('我可以打电话');
 
 在 [Es6](https://so.csdn.net/so/search?q=Es6&spm=1001.2101.3001.7020) 中，在 Class 内部可以使用 get 和 set 关键字， 对某个属性设置存值函数和取值函数， 拦截该属性的存取行为。
 
-```
+``` js
 class HelloWorld {
 	constructor() {
 		this.name_ = ''
@@ -2863,7 +2882,7 @@ console.log(hw.name)
 
 1、组合继承模式
 
-```
+``` js
 function Phone(brand,price) {
       this.brand=brand;
       this.price=price;
@@ -2900,19 +2919,15 @@ function Phone(brand,price) {
 
 ![image-20210105224942582](https://webpon-img.oss-cn-guangzhou.aliyuncs.com/img20210305155154.png)
 
-2、寄生式继承
-
-```
-
-```
+2、寄生式继承 
 
 *//组合继承的缺点：需要两次调用Phone的构造函数，从而导致brand和price属性冗余，在Phone中存在一份，在Phone.prototype中又存在一份，只不过是sub把super里的属性覆盖了*
 
 ![image-20210815152921103](https://webpon-img.oss-cn-guangzhou.aliyuncs.com/img20210815152922.png)
 
-```
+``` js
 //采用寄生式继承模式可以解决上述问题
-     function inheritPrototype(subClass, superClass){
+  function inheritPrototype(subClass, superClass){
 		function F(){}
 		F.prototype = superClass.prototype
 		subClass.prototype = new F()
@@ -2926,8 +2941,8 @@ function Phone(brand,price) {
 
 利用class extends实现类的继承
 
-```
-`	 	class Phone{
+``` js
+	 	class Phone{
         //构造方法
         constructor(brand,price){
           this.price=price;
@@ -2973,7 +2988,7 @@ function Phone(brand,price) {
 2、类里面的共有的属性和方法一定要加this使用
 ```
 
-```
+``` js
 class Star {
     constructor(uname,age){
       this.uname = uname
@@ -2989,10 +3004,6 @@ class Star {
 ```
 
 结果：
-
-```
-
-```
 
 ![image-20201226173919574](https://webpon-img.oss-cn-guangzhou.aliyuncs.com/img20210328145436.png)
 
@@ -3019,10 +3030,6 @@ class Star {
 
 结果：
 
-```
-
-```
-
 ![image-20201226174313157](https://webpon-img.oss-cn-guangzhou.aliyuncs.com/img20210328145458.png)
 
 ##### call、apply、bind
@@ -3031,14 +3038,14 @@ class Star {
 
 ![img](https://webpon-img.oss-cn-guangzhou.aliyuncs.com/img1535346409-8618-20170316165541854-1574871496-165358786755339.png)
 
-```
+``` js
 obj.objAge;  // 17
-     obj.myFun()  // 小张年龄 undefined
+obj.myFun()  // 小张年龄 undefined
 ```
 
 ![img](https://webpon-img.oss-cn-guangzhou.aliyuncs.com/img1535346409-8327-20170316170324541-406227186-165358786755341.png)
 
-```
+``` js
 shows()  // 盲僧
 ```
 
@@ -3050,10 +3057,10 @@ shows()  // 盲僧
 
 ![img](https://webpon-img.oss-cn-guangzhou.aliyuncs.com/img1535346409-8172-20170316172537651-1643313633-165358786755343.png)
 
-```
+``` js
 obj.myFun.call(db)；　　　　// 德玛年龄 99
-     obj.myFun.apply(db);　　　 // 德玛年龄 99
-     obj.myFun.bind(db)();　　　// 德玛年龄 99
+obj.myFun.apply(db);　　　 // 德玛年龄 99
+obj.myFun.bind(db)();　　　// 德玛年龄 99
 ```
 
 以上除了 bind 方法后面多了个 () 外 ，结果返回都一致！
@@ -3085,74 +3092,145 @@ bind 除了返回是函数以外，它 的参数和 call 一样。
 
 当然，三者的参数不限定是 string 类型，允许是各种类型，包括函数 、 object 等等！
 
+###### 手写 call 函数
+
+call 函数的实现步骤：
+
+1. 判断调用对象是否为函数，即使我们是定义在函数的原型上的，但是可能出现使用 call 等方式调用的情况。
+2. 判断传入上下文对象是否存在，如果不存在，则设置为 window 。
+3. 处理传入的参数，截取第一个参数后的所有参数。
+4. 将函数作为上下文对象的一个属性。
+5. 使用上下文对象来调用这个方法，并保存返回结果。
+6. 删除刚才新增的属性。
+7. 返回结果。
+
+```js
+// call函数实现
+Function.prototype.myCall = function(context) {
+  // 判断调用对象
+  if (typeof this !== "function") {
+    console.error("type error");
+  }
+  // 获取参数
+  let args = [...arguments].slice(1),
+      result = null;
+  // 判断 context 是否传入，如果未传入则设置为 window
+  context = context || window;
+  // 将调用函数设为对象的方法
+  context.fn = this;
+  // 调用函数
+  result = context.fn(...args);
+  // 将属性删除
+  delete context.fn;
+  return result;
+};
+```
+
+###### 手写 apply 函数
+
+apply 函数的实现步骤：
+
+1. 判断调用对象是否为函数，即使我们是定义在函数的原型上的，但是可能出现使用 call 等方式调用的情况。
+2. 判断传入上下文对象是否存在，如果不存在，则设置为 window 。
+3. 将函数作为上下文对象的一个属性。
+4. 判断参数值是否传入
+5. 使用上下文对象来调用这个方法，并保存返回结果。
+6. 删除刚才新增的属性
+7. 返回结果
+
+```js
+// apply 函数实现
+Function.prototype.myApply = function(context) {
+  // 判断调用对象是否为函数
+  if (typeof this !== "function") {
+    throw new TypeError("Error");
+  }
+  let result = null;
+  // 判断 context 是否存在，如果未传入则为 window
+  context = context || window;
+  // 将函数设为对象的方法
+  context.fn = this;
+  // 调用方法
+  if (arguments[1]) {
+    result = context.fn(...arguments[1]);
+  } else {
+    result = context.fn();
+  }
+  // 将属性删除
+  delete context.fn;
+  return result;
+};
+```
+
+###### 手写 bind 函数
+
+bind 函数的实现步骤：
+
+1. 判断调用对象是否为函数，即使我们是定义在函数的原型上的，但是可能出现使用 call 等方式调用的情况。
+2. 保存当前函数的引用，获取其余传入参数值。
+3. 创建一个函数返回
+4. 函数内部使用 apply 来绑定函数调用，需要判断函数作为构造函数的情况，这个时候需要传入当前函数的 this 给 apply 调用，其余情况都传入指定的上下文对象。
+
+```js
+// bind 函数实现
+Function.prototype.myBind = function(context) {
+  // 判断调用对象是否为函数
+  if (typeof this !== "function") {
+    throw new TypeError("Error");
+  }
+  // 获取参数
+  var args = [...arguments].slice(1),
+      fn = this;
+  return function Fn() {
+    // 根据调用方式，传入不同绑定值
+    return fn.apply(
+      this instanceof Fn ? this : context,
+      args.concat(...arguments)
+    );
+  };
+};
+```
+
 ##### 逻辑运算符（与或非）
 
 **1、非！**
 
-> ```
-> 所谓非，就是取反，非真即假，非假即真。
-> ```
+>所谓非，就是取反，非真即假，非假即真。
 
-```
 非运算符不仅仅只能用于布尔值，其他数据类型也是可以的，如下:
-```
 
-```
 1.如果操作数是一个对象，返回false
-```
 
-```
 2.如果操作数是一个空字符串，返回true
-```
 
-```
 3.如果操作数是一个非空字符串，返回false
-```
 
-```
 4.如果操作数是数值0，返回true
-```
 
-```
 5.如果操作数是任意非0数值(包括Infinity), 返回false
-```
 
-```
 6.如果操作数是null,返回true
-```
 
-```
 7.如果操作数是NaN,返回true
-```
 
-```
 8.如果操作数是undefined, 返回true
-```
 
 **2、与&&**
 
-> ```
 > 作用于两到多个值，并且只有所有的操作数都是真值时，才为true。
-> ```
 
-```
 JavaScript里面的与存在短路现象，具体说明如下:
-```
 
-```
 1.第一个操作数为真:会进入第二个操作数的判断，且无论第二个操作数真假，都会返回第二个操作数。
-```
 
-```
 2.第一个操作数为假:不会进入第二个操作数的判断，直接返回第一个操作数。
-```
 
-```
+``` js
 console.log(3 && 5);//5
-     console.log("Hello" && 20);//20
-     console.log("Hello" && false);//false
-     console.log("" && "shoe");//""
-     console.log("Hello" && '');//''
+console.log("Hello" && 20);//20
+console.log("Hello" && false);//false
+console.log("" && "shoe");//""
+console.log("Hello" && '');//''
 ```
 
 **3、或||**
@@ -3167,25 +3245,25 @@ JavaScript里面的或同样存在短路现象，具体说明如下:
 
 实例：
 
-```
+``` js
 console.log(false || true);//true
-     console.log("Hello" || "");//Hello
-     console.log("Hello" || "str");//Hello
-     console.log(NaN || "");//""
-     console.log(0 || "Hello World");//Hello World
-     console.log('' || 'str');//str
-     console.log('' || false);//false
+console.log("Hello" || "");//Hello
+console.log("Hello" || "str");//Hello
+console.log(NaN || "");//""
+console.log(0 || "Hello World");//Hello World
+console.log('' || 'str');//str
+console.log('' || false);//false
 ```
 
 经典题：
 
-```
+``` js
 let a = false;
-     let b = a || c;因为a是false，所以会判断第二个数。
-     console.log(b); //ReferenceError: c is not defined
-     let a = false;
-     let b = a && c;// 因为a是false，所以不会判断第二个数。
-     console.log(b);//false
+let b = a || c;因为a是false，所以会判断第二个数。
+console.log(b); //ReferenceError: c is not defined
+let a = false;
+let b = a && c;// 因为a是false，所以不会判断第二个数。
+console.log(b);//false
 ```
 
 ##### 作用域
