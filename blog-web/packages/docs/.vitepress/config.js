@@ -37,6 +37,9 @@ export const config = {
           { text: 'httpbin', link: 'http://httpbin.org/' },
           { text: 'apifox', link: 'https://www.apifox.cn/web/main' },
           { text: '正则表达式工具', link: 'https://regex101.com/' },
+          { text: '菜鸟工具', link: 'https://c.runoob.com/' },
+          { text: 'JSON格式化工具', link: 'https://c.runoob.com/front-end/53/' },
+          { text: 'js在线运行工具', link: 'https://c.runoob.com/compile/22/' },
         ]
       }
     ],
