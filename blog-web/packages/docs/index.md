@@ -4,7 +4,7 @@ layout: home
 hero:
   name: webpon-blog
   text:
-  tagline: webpon的个人博客
+  tagline: 生命不息，折腾不止
   # actions:
   #   - theme:    
   #     text: 总览

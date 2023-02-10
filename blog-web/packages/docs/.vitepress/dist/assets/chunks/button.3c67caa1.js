@@ -1,1 +1,0 @@
-import{_ as t,o,c as n,b as c,w as a,e as r,r as s}from"../app.742b0cfe.js";const _={};function l(u,d){const e=s("el-button");return o(),n("div",null,[c(e,null,{default:a(()=>[r("按钮")]),_:1})])}const m=t(_,[["render",l]]);export{m as default};

@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a as l}from"./app.867ca285.js";const g=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"back-end/Java/Java基础.md"}'),p={name:"back-end/Java/Java基础.md"},t=l("",354),e=[t];function o(c,i,r,C,A,y){return a(),n("div",null,e)}const u=s(p,[["render",o]]);export{g as __pageData,u as default};
