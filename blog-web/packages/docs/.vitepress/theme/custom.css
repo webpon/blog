@@ -1,0 +1,11 @@
+/* .vitepress/theme/custom.css */
+html:not(.dark) {
+  --vp-c-bg: #f5f5d5;
+  --vp-nav-bg-color: #fbfaea;
+  --vp-sidebar-bg-color: #f5f5d5;
+  --vp-c-bg-soft: #fbfaea;
+}
+
+html:not(.dark) .VPNavBar {
+  background-color: #fbfaea;
+}

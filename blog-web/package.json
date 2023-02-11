@@ -15,11 +15,7 @@
     "element-plus": "^2.2.28",
     "shiki": "^0.11.1",
     "vitepress": "^1.0.0-alpha.45",
-    "vitepress-plugin-search": "^1.0.4-alpha.18",
+    "vitepress-plugin-search": "^1.0.4-alpha.19",
     "vue": "^3.2.47"
-  },
-  "dependencies": {
-    "vite": "^4.1.1",
-    "vuepress": "^1.9.8"
   }
 }
