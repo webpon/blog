@@ -784,7 +784,7 @@ const str = 'The quick brown fox jumps over the lazy dog.';
   ```
 - 上面代码实现的原理是怎样的呢?
 
-  <img src="https:////upload-images.jianshu.io/upload_images/1102036-8fb6621c6dca7e05?imageMogr2/auto-orient/strip|imageView2/2/w/1024/format/webp" alt="img" style="zoom:80%;" />
+  <img src="http://webpon-img.oss-cn-guangzhou.aliyuncs.com/chatFile/c97263bb-6dd6-4dae-832b-6ea5026c0d6a_1102036-8fb6621c6dca7e05.webp" alt="img" style="zoom:80%;" />
 - 考虑上面代码实现的性能怎么呢?
 
   - 性能并不算非常高

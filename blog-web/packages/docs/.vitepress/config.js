@@ -40,6 +40,18 @@ export const config = {
           { text: '菜鸟工具', link: 'https://c.runoob.com/' },
           { text: 'JSON格式化工具', link: 'https://c.runoob.com/front-end/53/' },
           { text: 'js在线运行工具', link: 'https://c.runoob.com/compile/22/' },
+          { text: 'codesandbox', link: 'https://codesandbox.io/' },
+        ]
+      },
+      {
+        text: '技术社区',
+        items: [
+          { text: '掘金', link: 'https://juejin.cn/' },
+          { text: '黑客说', link: 'https://hackertalk.net/' },
+          { text: '阮一峰博客', link: 'https://www.ruanyifeng.com/' },
+          { text: '前端充电宝', link: 'https://www.yuque.com/cuggz' },
+          { text: '编程导航', link: 'www.code-nav.cn/' },
+          { text: '书栈网', link: 'https://www.bookstack.cn/' },
         ]
       }
     ],
