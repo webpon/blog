@@ -8,4 +8,8 @@ export default defineConfig({
       tokenize: 'full'
     })
   ],
+  // esbuild: {
+  //   pure: ['console.log'],
+  //   minify: true
+  // },
 });
