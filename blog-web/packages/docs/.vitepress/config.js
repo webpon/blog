@@ -16,6 +16,11 @@ export const config = {
   },
   themeConfig: {
     logo: 'https://avatars.githubusercontent.com/u/50807258?s=400&u=c33267d837d5860768a166e35e419e2b5e6769f7&v=4',
+    algolia: {
+      appId: '48RH4QCEIW',
+      apiKey: 'efb45316f2abf30688040f684fa0819a',
+      indexName: 'webponio'
+    },
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2021-PRESENT webpon contributors'
