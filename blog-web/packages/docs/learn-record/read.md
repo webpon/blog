@@ -6,6 +6,7 @@
 
 1. [使用rem适配不同屏幕的移动设备](https://mp.weixin.qq.com/s?__biz=MjM5MDA2MTI1MA==&mid=2649091974&idx=2&sn=ce0a8a6cd96efe3061c8ec097156b2b8&chksm=be5bc82b892c413dc1c5973fe35a6867bcff529f9d272377ce72f7a34ca53b7d76b8811cce2f&scene=27)
 2. [setInterval计时器不准问题解决](https://www.cnblogs.com/zouxinping/p/5038287.html)
+3. [宏任务和微任务和DOM渲染](https://www.jianshu.com/p/afaec391aff6)
 
 ### 一月
 
