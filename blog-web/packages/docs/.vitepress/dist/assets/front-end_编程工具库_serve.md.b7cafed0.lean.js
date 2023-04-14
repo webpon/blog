@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as e}from"./app.77363207.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"front-end/编程工具库/serve.md"}'),p={name:"front-end/编程工具库/serve.md"},t=e("",6),l=[t];function o(c,i,r,d,C,_){return n(),a("div",null,l)}const g=s(p,[["render",o]]);export{m as __pageData,g as default};
